@@ -7,6 +7,11 @@ The key experimental contribution of the paper is the *SParse And Dense Network 
 
 # SPaD Design 
 The name refers to the system being sparse with respect to user input tokens as compared to tokens contained in the LM/LLMs. Against this, the system is dense in terms of leveraging transformer models and their associated attention layers.  The intuition is to use a small amount of personalized user text to attempt to customize the output of powerful LMs/LLMs.
+
+
+![SPaD Model Overview](Images/SPaD-HLA.png "SPaD Model Overview")
+
+
  
 # Model Elements
 1. Text input by user is returned as partially completed poetic text and/or poetic and lyrical recommendations for the user to consider. 
